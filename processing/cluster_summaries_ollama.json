@@ -1,0 +1,63 @@
+{
+  "summary": "This file contains summarized articles with AI-generated themes.",
+  "articles": [
+    {
+      "title": "Rich economies will need foreign workers to fuel growth, policymakers warn",
+      "summary": "Central bankers say low birth rates in world’s largest economies pose threat to productivity and prices",
+      "link": "https://www.ft.com/content/8bfdf5d7-3584-444d-849e-b75adc2e07ed",
+      "llm_summary": "Central bankers have warned that low birth rates in major economies pose a threat to productivity and prices, suggesting a need for foreign workers to fuel growth.",
+      "theme": "Labor Force Shortage in Rich Economies"
+    },
+    {
+      "title": "Can you run a Premier League football club?",
+      "summary": "Step into the boardroom, navigate profit and sustainability rules and guide your club to glory",
+      "link": "https://ig.ft.com/football-game",
+      "llm_summary": "The article discusses the responsibilities and challenges of managing a Premier League football club, focusing on financial management, adherence to profit and sustainability rules, and striving for success.",
+      "theme": "Managing Premier League Football Clubs"
+    },
+    {
+      "title": "How English costs the English",
+      "summary": "The disadvantages of having the world’s language",
+      "link": "https://www.ft.com/content/bc7cd805-7a66-4860-b16d-7baf921dfe49",
+      "llm_summary": "The article discusses several disadvantages that English speakers experience due to the widespread use of their language, such as decreased proficiency in other languages, cultural homogenization, and increased stress from linguistic expectations.",
+      "theme": "Disadvantages of Global English"
+    },
+    {
+      "title": "Tech stocks are sending a warning",
+      "summary": "Sell-off provides a reminder of the risks of the sector’s dominance in public and private markets",
+      "link": "https://www.ft.com/content/c44c32cd-da47-4ba6-a67a-30c0059931bb",
+      "llm_summary": "The article discusses the recent sell-off in tech stocks, reminding investors of the potential risks associated with the sector's significant influence in both public and private markets.",
+      "theme": "Tech Stock Risks"
+    },
+    {
+      "title": "BCG roiled by internal backlash over Gaza aid work",
+      "summary": "Top Middle East consultant ‘ashamed’ of revelations while CEO’s staff meeting in Dubai prompts walkout",
+      "link": "https://www.ft.com/content/89399790-b349-4112-ad2c-d6b27442889f",
+      "llm_summary": "Boston Consulting Group (BCG) is facing an internal backlash due to controversies surrounding its Gaza aid work, with a top Middle East consultant expressing shame over the revelations and a walkout occurring during a CEO's staff meeting in Dubai.",
+      "theme": [
+        "Internal Conflict",
+        "Controversy",
+        "BCG",
+        "Gaza Aid"
+      ]
+    },
+    {
+      "title": "Robert Jenrick, viral star of the Tory right",
+      "summary": "The shadow justice secretary’s social media videos on migrant camps and fare dodgers have found a large audience",
+      "link": "https://www.ft.com/content/34aaf230-8e57-464b-be9d-8d3878b69b37",
+      "llm_summary": "Robert Jenrick, a prominent figure on the Conservative right, has gained popularity through his social media videos discussing topics such as migrant camps and fare dodgers.",
+      "theme": [
+        "Politics",
+        "Conservative",
+        "Social Media"
+      ]
+    },
+    {
+      "title": "Private again: Soho House retreats from public markets after rapid growth",
+      "summary": "Chief says members’ club operator will build on ‘momentum’ after $2.7bn take-private deal announced this week",
+      "link": "https://www.ft.com/content/6dc11675-5df7-4837-8431-9ae3b5bc7063",
+      "llm_summary": "Soho House, an exclusive members' club operator, is stepping out of public markets following a $2.7bn take-private deal. The company aims to capitalize on the momentum gathered during its rapid growth.",
+      "theme": "Private Takeover, Soho House, Growth Momentum"
+    }
+  ]
+}
