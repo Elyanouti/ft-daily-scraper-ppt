@@ -1,0 +1,35 @@
+name: Daily FT Scraper
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # 14:00 UTC = 16:00 GMT+2
+  workflow_dispatch:  
+
+jobs:
+  run-daily-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scraper + PPT
+        run: |
+          python ingestion/fetch_rss.py
+          python processing/llm_summarize_ollama.py
+          python presentation/advanced_ppt_ollama.py
+
+      - name: Upload PPT artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: FT_Summary_PPT
+          path: presentation/*.pptx

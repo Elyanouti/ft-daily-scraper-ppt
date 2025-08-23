@@ -1,0 +1,91 @@
+{
+  "summary": "This file contains summarized articles with AI-generated themes.",
+  "articles": [
+    {
+      "title": "Can you run a Premier League football club?",
+      "summary": "Step into the boardroom, navigate profit and sustainability rules and guide your club to glory",
+      "link": "https://ig.ft.com/football-game",
+      "llm_summary": "The article discusses the responsibilities of managing a Premier League football club, including making strategic decisions on finances, complying with profit and sustainability rules, and aiming to achieve success and glory.",
+      "theme": [
+        "Football Management",
+        "Premier League",
+        "Strategic Decision Making"
+      ]
+    },
+    {
+      "title": "How English costs the English",
+      "summary": "The disadvantages of having the world’s language",
+      "link": "https://www.ft.com/content/bc7cd805-7a66-4860-b16d-7baf921dfe49",
+      "llm_summary": "The article discusses several disadvantages that English speakers face due to the global dominance of their language, such as reduced originality in literature, increased difficulty in learning other languages, and potential miscommunication due to linguistic hegemony.",
+      "theme": "Disadvantages of Linguistic Hegemony"
+    },
+    {
+      "title": "Tech stocks are sending a warning",
+      "summary": "Sell-off provides a reminder of the risks of the sector’s dominance in public and private markets",
+      "link": "https://www.ft.com/content/c44c32cd-da47-4ba6-a67a-30c0059931bb",
+      "llm_summary": "The sell-off of tech stocks serves as a reminder about the potential risks associated with the sector's significant influence in both public and private markets.",
+      "theme": [
+        "Tech Stocks",
+        "Risks",
+        "Market Dominance"
+      ]
+    },
+    {
+      "title": "BCG roiled by internal backlash over Gaza aid work",
+      "summary": "Top Middle East consultant ‘ashamed’ of revelations while CEO’s staff meeting in Dubai prompts walkout",
+      "link": "https://www.ft.com/content/89399790-b349-4112-ad2c-d6b27442889f",
+      "llm_summary": "BCG, a top Middle East consulting firm, is facing internal backlash due to revelations about their Gaza aid work. A senior consultant expressed shame over the situation during a staff meeting in Dubai, leading to a walkout.",
+      "theme": "Internal Conflict, Ethical Concerns"
+    },
+    {
+      "title": "China refuses to explain ‘greyed out’ parts of London embassy plan",
+      "summary": "Representatives dismiss UK’s request for further information as not ‘necessary or appropriate’",
+      "link": "https://www.ft.com/content/1c85300d-af36-4c49-9a45-8ebcc1c6a006",
+      "llm_summary": " {\n  \"summary\": \"China has rejected the UK's request for additional information about certain areas of their planned London embassy, stating that the details are not necessary or appropriate.\",\n  \"theme\": [\"Diplomacy\", \"International Relations\", \"Transparency\"]",
+      "theme": "Miscellaneous"
+    },
+    {
+      "title": "Robert Jenrick, viral star of the Tory right",
+      "summary": "The shadow justice secretary’s social media videos on migrant camps and fare dodgers have found a large audience",
+      "link": "https://www.ft.com/content/34aaf230-8e57-464b-be9d-8d3878b69b37",
+      "llm_summary": "Robert Jenrick, a prominent figure on the Conservative right, has garnered a significant following through his social media videos focused on topics such as migrant camps and fare dodgers.",
+      "theme": [
+        "Politics",
+        "Social Media",
+        "Conservatism"
+      ]
+    },
+    {
+      "title": "Private again: Soho House retreats from public markets after rapid growth",
+      "summary": "Chief says members’ club operator will build on ‘momentum’ after $2.7bn take-private deal announced this week",
+      "link": "https://www.ft.com/content/6dc11675-5df7-4837-8431-9ae3b5bc7063",
+      "llm_summary": "Soho House, a members' club operator, is set to exit public markets following a $2.7 billion take-private deal, aiming to build on their recent growth momentum.",
+      "theme": "Company Privatization"
+    },
+    {
+      "title": "Can you run a Premier League football club?",
+      "summary": "Step into the boardroom, navigate profit and sustainability rules and guide your club to glory",
+      "link": "https://ig.ft.com/football-game",
+      "llm_summary": "The article discusses the responsibilities of running a Premier League football club, focusing on managing finances to meet profit and sustainability rules while aiming for success on the field.",
+      "theme": [
+        "Football Management",
+        "Premier League",
+        "Profit and Sustainability"
+      ]
+    },
+    {
+      "title": "How English costs the English",
+      "summary": "The disadvantages of having the world’s language",
+      "link": "https://www.ft.com/content/bc7cd805-7a66-4860-b16d-7baf921dfe49",
+      "llm_summary": "The article discusses the drawbacks of English being the world's language, including potential cultural homogenization, digital divide, and economic exploitation of non-English speaking countries.",
+      "theme": "Disadvantages of Global English"
+    },
+    {
+      "title": "Tech stocks are sending a warning",
+      "summary": "Sell-off provides a reminder of the risks of the sector’s dominance in public and private markets",
+      "link": "https://www.ft.com/content/c44c32cd-da47-4ba6-a67a-30c0059931bb",
+      "llm_summary": "The sell-off in tech stocks serves as a reminder of the potential risks associated with the sector's significant influence across both public and private markets.",
+      "theme": "Risks of Tech Sector Dominance"
+    }
+  ]
+}
