@@ -8,7 +8,7 @@ from pptx.dml.color import RGBColor
 INPUT_FILE = "processing/cluster_summaries_ollama.json"
 OUTPUT_DIR = "presentation"
 
-MAX_PARAGRAPHS_PER_SLIDE = 10  # عدد الفقرات قبل إنشاء شريحة جديدة
+MAX_PARAGRAPHS_PER_SLIDE = 10  
 
 def create_four_slide_ppt(summary_data):
     prs = Presentation()
