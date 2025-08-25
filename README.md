@@ -34,7 +34,7 @@ ft-llm-demo/
 ├─ run_all.py                  # Main script to execute entire workflow
 ├─ articles.db                 # Local SQLite database
 ├─ Dockerfile                  # Optional: containerized setup
-└─ .github/workflows/daily.yml # n8n workflow or GitHub Actions setup
+
 ```
 
 ---
