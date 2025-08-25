@@ -1,9 +1,6 @@
 import feedparser
 import sqlite3
 from pathlib import Path
-import sys
-
-sys.stdout.reconfigure(encoding='utf-8')  
 
 DB = Path(__file__).resolve().parents[1] / "articles.db"
 RSS_URL = "https://www.ft.com/?format=rss"  # FREE RSS FEED

@@ -4,12 +4,10 @@ from datetime import datetime
 from pptx import Presentation
 from pptx.util import Pt
 from pptx.dml.color import RGBColor
-import sys
-
-sys.stdout.reconfigure(encoding='utf-8')  
 
 INPUT_FILE = "processing/cluster_summaries_ollama.json"
 OUTPUT_DIR = "presentation"
+
 MAX_PARAGRAPHS_PER_SLIDE = 10  
 
 def create_four_slide_ppt(summary_data):
@@ -17,13 +15,13 @@ def create_four_slide_ppt(summary_data):
 
     # ===== Slide 1: Title =====
     slide1 = prs.slides.add_slide(prs.slide_layouts[0])
-    slide1.shapes.title.text = "FT.com Daily Summary"
+    slide1.shapes.title.text = "📊 FT.com Daily Summary"
     slide1.placeholders[1].text = f"Generated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')}"
     slide1.shapes.title.text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 102, 204)
 
     # ===== Slide 2: Articles =====
     slide2 = prs.slides.add_slide(prs.slide_layouts[1])
-    slide2.shapes.title.text = "Articles"
+    slide2.shapes.title.text = "📰 Articles"
     tf2 = slide2.placeholders[1].text_frame
     tf2.clear()
     for article in summary_data.get("articles", []):
@@ -33,7 +31,7 @@ def create_four_slide_ppt(summary_data):
 
     # ===== Slide 3: Summaries =====
     slide = prs.slides.add_slide(prs.slide_layouts[1])
-    slide.shapes.title.text = "Summaries"
+    slide.shapes.title.text = "📝 Summaries"
     tf = slide.placeholders[1].text_frame
     tf.clear()
     count = 0
@@ -41,7 +39,7 @@ def create_four_slide_ppt(summary_data):
     for article in summary_data.get("articles", []):
         if count >= MAX_PARAGRAPHS_PER_SLIDE:
             slide = prs.slides.add_slide(prs.slide_layouts[1])
-            slide.shapes.title.text = "Summaries (Continued)"
+            slide.shapes.title.text = "📝 Summaries (Continued)"
             tf = slide.placeholders[1].text_frame
             tf.clear()
             count = 0
@@ -59,7 +57,7 @@ def create_four_slide_ppt(summary_data):
 
     # ===== Slide 4: References =====
     slide4 = prs.slides.add_slide(prs.slide_layouts[1])
-    slide4.shapes.title.text = "References / Links"
+    slide4.shapes.title.text = "🔗 References / Links"
     tf4 = slide4.placeholders[1].text_frame
     tf4.clear()
     for article in summary_data.get("articles", []):
@@ -71,7 +69,7 @@ def create_four_slide_ppt(summary_data):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     output_file = os.path.join(OUTPUT_DIR, f"FT_Summary_4Slides_{datetime.utcnow().date()}.pptx")
     prs.save(output_file)
-    print(output_file)  
+    print(f" PPT saved: {output_file}")
 
 if __name__ == "__main__":
     if not os.path.exists(INPUT_FILE):

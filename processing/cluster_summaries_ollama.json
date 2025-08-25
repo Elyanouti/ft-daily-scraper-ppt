@@ -5,50 +5,49 @@
       "title": "Rich economies will need foreign workers to fuel growth, policymakers warn",
       "summary": "Central bankers say low birth rates in world’s largest economies pose threat to productivity and prices",
       "link": "https://www.ft.com/content/8bfdf5d7-3584-444d-849e-b75adc2e07ed",
-      "llm_summary": "Central bankers have warned that low birth rates in major economies pose a threat to productivity and prices, suggesting a need for foreign workers to fuel growth.",
-      "theme": "Labor Force Shortage in Rich Economies"
+      "llm_summary": "Central bankers have expressed concerns over low birth rates in major economies, warning that this trend could negatively impact productivity and prices, necessitating an increased reliance on foreign workers to fuel growth.",
+      "theme": "Labor Shortage and Global Economy"
     },
     {
       "title": "Can you run a Premier League football club?",
       "summary": "Step into the boardroom, navigate profit and sustainability rules and guide your club to glory",
       "link": "https://ig.ft.com/football-game",
-      "llm_summary": "The article discusses the responsibilities and challenges of managing a Premier League football club, focusing on financial management, adherence to profit and sustainability rules, and striving for success.",
-      "theme": "Managing Premier League Football Clubs"
+      "llm_summary": "The article discusses the responsibilities involved in managing a Premier League football club, focusing on strategic decision-making in terms of financial management to ensure profitability and success.",
+      "theme": [
+        "Football Management",
+        "Premier League",
+        "Strategic Decision Making"
+      ]
     },
     {
       "title": "How English costs the English",
       "summary": "The disadvantages of having the world’s language",
       "link": "https://www.ft.com/content/bc7cd805-7a66-4860-b16d-7baf921dfe49",
-      "llm_summary": "The article discusses several disadvantages that English speakers experience due to the widespread use of their language, such as decreased proficiency in other languages, cultural homogenization, and increased stress from linguistic expectations.",
+      "llm_summary": "The article discusses several disadvantages faced by English speakers due to the widespread use of the English language, such as cultural dilution, language devaluation, and increased competition in education and job markets.",
       "theme": "Disadvantages of Global English"
     },
     {
       "title": "Tech stocks are sending a warning",
       "summary": "Sell-off provides a reminder of the risks of the sector’s dominance in public and private markets",
       "link": "https://www.ft.com/content/c44c32cd-da47-4ba6-a67a-30c0059931bb",
-      "llm_summary": "The article discusses the recent sell-off in tech stocks, reminding investors of the potential risks associated with the sector's significant influence in both public and private markets.",
-      "theme": "Tech Stock Risks"
+      "llm_summary": "The recent sell-off in tech stocks serves as a reminder of the potential risks associated with the sector's substantial influence across both public and private markets.",
+      "theme": "Tech Market Risks"
     },
     {
       "title": "BCG roiled by internal backlash over Gaza aid work",
       "summary": "Top Middle East consultant ‘ashamed’ of revelations while CEO’s staff meeting in Dubai prompts walkout",
       "link": "https://www.ft.com/content/89399790-b349-4112-ad2c-d6b27442889f",
-      "llm_summary": "Boston Consulting Group (BCG) is facing an internal backlash due to controversies surrounding its Gaza aid work, with a top Middle East consultant expressing shame over the revelations and a walkout occurring during a CEO's staff meeting in Dubai.",
-      "theme": [
-        "Internal Conflict",
-        "Controversy",
-        "BCG",
-        "Gaza Aid"
-      ]
+      "llm_summary": "BCG, a top Middle East consulting firm, is facing internal backlash due to revelations about their aid work in Gaza, with one consultant expressing shame. A staff meeting in Dubai led by the CEO reportedly caused a walkout.",
+      "theme": "Internal Dispute, Organizational Scandal"
     },
     {
       "title": "Robert Jenrick, viral star of the Tory right",
       "summary": "The shadow justice secretary’s social media videos on migrant camps and fare dodgers have found a large audience",
       "link": "https://www.ft.com/content/34aaf230-8e57-464b-be9d-8d3878b69b37",
-      "llm_summary": "Robert Jenrick, a prominent figure on the Conservative right, has gained popularity through his social media videos discussing topics such as migrant camps and fare dodgers.",
+      "llm_summary": "Robert Jenrick, a prominent figure on the Conservative right, has gained popularity through his social media videos discussing topics such as migrant camps and fare evasion.",
       "theme": [
         "Politics",
-        "Conservative",
+        "Conservatism",
         "Social Media"
       ]
     },
@@ -56,8 +55,29 @@
       "title": "Private again: Soho House retreats from public markets after rapid growth",
       "summary": "Chief says members’ club operator will build on ‘momentum’ after $2.7bn take-private deal announced this week",
       "link": "https://www.ft.com/content/6dc11675-5df7-4837-8431-9ae3b5bc7063",
-      "llm_summary": "Soho House, an exclusive members' club operator, is stepping out of public markets following a $2.7bn take-private deal. The company aims to capitalize on the momentum gathered during its rapid growth.",
-      "theme": "Private Takeover, Soho House, Growth Momentum"
+      "llm_summary": "Soho House, a private members' club operator, announced it will exit public markets following a $2.7bn take-private deal, with plans to build on its recent growth momentum.",
+      "theme": "Privatization"
+    },
+    {
+      "title": "Private equity fundraising slides as sector’s downturn deepens",
+      "summary": "Firms are struggling to raise money even as they offer discounts to attract new investors",
+      "link": "https://www.ft.com/content/f7387912-1079-43d4-a9a2-2308989400d4",
+      "llm_summary": "Private equity firms are facing challenges in fundraising, despite offering discounts to potential investors, due to the ongoing downturn in the sector.",
+      "theme": "Private Equity Downturn"
+    },
+    {
+      "title": "Brace for the Fed’s Maga makeover",
+      "summary": "Jay Powell’s Jackson Hole speech is a prelude to much bigger changes coming at the central bank",
+      "link": "https://www.ft.com/content/ebf4f2f8-d1e3-4f0f-856a-0a4659d6ca99",
+      "llm_summary": " {\n  \"summary\": \"The Jackson Hole speech by Jay Powell, the head of the Federal Reserve, indicates significant changes are imminent at the central bank, possibly reflecting a shift towards policies aligned with President Trump's 'America First' agenda.\",\n  \"theme\": [\"Fed Changes\", \"Maga Policy\", \"Central Bank Shift\"]",
+      "theme": "Miscellaneous"
+    },
+    {
+      "title": "UK sets out overhaul of asylum appeals process as protests continue",
+      "summary": "Home secretary Yvette Cooper under pressure to show she is addressing backlog",
+      "link": "https://www.ft.com/content/4aa858c4-54da-4a4d-830e-9be193fd92e5",
+      "llm_summary": "The UK government, led by Home Secretary Yvette Cooper, is planning an overhaul of the asylum appeals process in response to mounting pressure due to a significant backlog. The move comes amidst ongoing protests demanding action.",
+      "theme": "Asylum Process Overhaul"
     }
   ]
 }

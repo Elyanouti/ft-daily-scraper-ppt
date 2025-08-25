@@ -6,7 +6,7 @@ from pptx.util import Pt
 from pptx.dml.color import RGBColor
 import sys
 
-sys.stdout.reconfigure(encoding='utf-8')  
+sys.stdout.reconfigure(encoding='utf-8')  # لتجنب مشاكل Unicode
 
 INPUT_FILE = "processing/cluster_summaries_ollama.json"
 OUTPUT_DIR = "presentation"
@@ -71,7 +71,7 @@ def create_four_slide_ppt(summary_data):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     output_file = os.path.join(OUTPUT_DIR, f"FT_Summary_4Slides_{datetime.utcnow().date()}.pptx")
     prs.save(output_file)
-    print(output_file)  
+    print(output_file)  # <-- هذا سيستخدمه n8n
 
 if __name__ == "__main__":
     if not os.path.exists(INPUT_FILE):
