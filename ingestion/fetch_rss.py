@@ -3,7 +3,7 @@ import sqlite3
 from pathlib import Path
 
 DB = Path(__file__).resolve().parents[1] / "articles.db"
-RSS_URL = "https://www.ft.com/?format=rss"  # قانوني ومجاني
+RSS_URL = "https://www.ft.com/?format=rss"  #FREE
 
 def create_db():
     conn = sqlite3.connect(DB)
