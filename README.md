@@ -1,7 +1,3 @@
-تمام، سأجهز لك مثال **README** احترافي لمشروعك على GitHub، يوضح كل المكونات والمهام بطريقة مرتبة، بالإنجليزية:
-
----
-
 # FT Daily Scraper & PPT Summarizer
 
 This project implements an automated pipeline to scrape freely accessible articles from **FT.com**, summarize them using an Opensource **LLM**, and generate a **PowerPoint presentation** with thematic insights. The workflow is fully automated using **n8n**, including email delivery of the generated report.
@@ -80,7 +76,3 @@ For compliance and ethical reasons, the pipeline **only scrapes freely accessibl
 AI AUTOMATION ENGINEER/AI AGENT
 
 ---
-
-إذا أحببت، أستطيع أيضًا أن أصيغ نسخة **مختصرة جدًا وجاهزة للنشر مباشرة على GitHub**، مع روابط placeholders واضحة لتضع فيها الفيديو والـ PPT والـ repo link.
-
-هل تريد أن أفعل ذلك؟
