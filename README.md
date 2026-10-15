@@ -24,7 +24,7 @@ ft-llm-demo/
 │   └─ fetch_rss.py           # Scrapes free FT articles
 │
 ├─ processing/
-│   ├─ llm_summarize_ollama.py  # Summarizes articles using LLM
+│   ├─ llm_summarize_ollama.py  # Summarizes articles using LLM Mistral
 │   └─ cluster_summaries_ollama.json # Output summaries
 │
 ├─ presentation/
