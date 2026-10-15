@@ -1,6 +1,6 @@
-# FT Daily Scraper & PPT Summarizer
+# FT Daily Scraper & PPT Summarizer with Mistral
 
-This project implements an automated pipeline to scrape freely accessible articles from **FT.com**, summarize them using an Opensource **LLM**, and generate a **PowerPoint presentation** with thematic insights. The workflow is fully automated using **n8n**, including email delivery of the generated report.
+This project implements an automated pipeline to scrape freely accessible articles from **FT.com**, summarize them using an Opensource **LLM (MISTRAL)**, and generate a **PowerPoint presentation** with thematic insights. The workflow is fully automated using **n8n**, including email delivery of the generated report.
 
 ---
 
