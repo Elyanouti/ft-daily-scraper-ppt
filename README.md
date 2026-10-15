@@ -8,7 +8,7 @@ This project implements an automated pipeline to scrape freely accessible articl
 
 * **Scraping**: Python-based pipeline fetching freely accessible FT articles on a daily schedule.
 * **Data Storage**: Articles are stored in a local SQLite database (`articles.db`).
-* **Summarization**: Uses **Ollama LLM** to cluster articles by themes and generate concise summaries.
+* **Summarization**: Uses **Ollama LLM (MISTRAL)** to cluster articles by themes and generate concise summaries.
 * **Presentation Generation**: Automatically produces PowerPoint reports (`FT_Summary_4Slides_DATE.pptx`) with references.
 * **Automation**: Scheduling and email delivery are managed via **n8n workflow automation**.
 * **Version Control**: All scripts, workflows, and resources are maintained in this GitHub repository.
